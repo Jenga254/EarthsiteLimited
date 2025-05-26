@@ -1,0 +1,221 @@
+.logo {
+  height: auto;
+  max-width: 150px;
+}
+
+.logo {
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.carouselHeader {
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#projects {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+h5 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* .carousel-item {
+  height: 1600px;
+  width: 1204px;
+} */
+
+body {
+  padding-top: 130px;
+}
+
+.navbar .nav-link {
+  color: black !important;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar .navbar-brand {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: #e78433 !important;
+}
+
+.hero {
+  height: 300px;
+}
+
+.card-img-top {
+  height: 100;
+  width: 100px;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.moodBoard1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  width: 150px; /* Square width */
+  height: 50px; /* Square height */
+  border-radius: 0; /* Remove rounded corners */
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.image-button2 {
+  position: absolute;
+  bottom: 20px;
+  left: 220px;
+  width: 200px; /* Square width */
+  height: 50px; /* Square height */
+  border-radius: 0; /* Remove rounded corners */
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.image-button i {
+  transition: transform 0.3s ease;
+}
+
+.image-button:hover i {
+  transform: translateX(3px);
+}
+
+.image-button2 i {
+  transition: transform 0.3s ease;
+}
+
+.image-button2:hover i {
+  transform: translateX(3px);
+}
+
+.image-heading {
+  position: absolute;
+  bottom: 220px;
+  left: 50px;
+  width: 200px; /* Square width */
+  height: 50px; /* Square height */
+  border-radius: 0; /* Remove rounded corners */
+  padding: 0;
+  display: flex;
+  text-align: left;
+  font-size: 50px;
+  color: white;
+}
+
+.image-heading {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.img-grid {
+  margin-bottom: 20px;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  padding: 8px 16px;
+  font-size: clamp(12px, 2vw, 18px); /* responsive font size */
+  font-weight: bold;
+  border-radius: 5px;
+  max-width: 90%; /* ensures it doesn’t overflow */
+  text-align: center;
+  white-space: normal; /* allow text to wrap if needed */
+}
+
+.img-grid {
+  transition: transform 0.3s ease;
+}
+
+.img-grid:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.head {
+  position: absolute;
+  bottom: 20px;
+  right: 105px;
+  top: 20px;
+  padding: 0;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-hr {
+  border: none;
+  height: 2px;
+  background-color: #000; /* or any color you like */
+  width: 100%;
+  margin: 2rem 0;
+}
