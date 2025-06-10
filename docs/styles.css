@@ -291,3 +291,104 @@ nav.navbar {
   transition: none !important;
   -webkit-transition: none !important;
 } */
+
+
+ /* Image responsiveness */
+ .image-container-fluid img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+  width: 100%; /* Ensure it fills the container */
+}
+
+/* Container for the image and text */
+.image-container-fluid {
+  position: relative; /* Essential for positioning child elements over the image */
+  text-align: center; /* Center align content inside */
+  color: white; /* Text color over the image */
+  overflow: hidden; /* Hide anything that overflows the container */
+}
+
+/* Styling for the heading */
+.image-heading {
+  position: absolute;
+  top: 50%; /* Adjust as needed to position the text */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  width: 80%; /* Limit heading width */
+  font-size: 2em; /* Default font size */
+  z-index: 2; /* Ensure text is above image */
+}
+
+/* Styling for buttons */
+.image-button,
+.image-button2 {
+  position: absolute;
+  z-index: 2; /* Ensure buttons are above image */
+  white-space: nowrap; /* Prevent button text from wrapping */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.image-button {
+  top: 70%; /* Adjust position of the first button */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-button2 {
+  top: 80%; /* Adjust position of the second button */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 767.98px) {
+  /* Mobile specific styles */
+  .image-heading {
+    font-size: 1.5em; /* Smaller font for heading on mobile */
+    top: 40%; /* Adjust heading position */
+  }
+
+  .image-button,
+  .image-button2 {
+    font-size: 0.9em; /* Smaller font for buttons */
+    padding: 8px 12px; /* Smaller padding */
+    width: 80%; /* Buttons take more width */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Remove vertical centering as we'll stack them */
+  }
+
+  .image-button {
+    top: 60%; /* Position first button for mobile */
+  }
+
+  .image-button2 {
+    top: 75%; /* Position second button below the first */
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* Even smaller screens (e.g., very small phones) */
+  .image-heading {
+    font-size: 1.2em;
+    top: 35%;
+  }
+
+    .image-button,
+    .image-button2 {
+      font-size: 0.7em;
+      padding: 6px 10px;
+      width: 90%;
+    }
+
+  .image-button {
+    top: 65%; /* Adjust top position */
+    }
+
+  .image-button2 {
+    top: 80%; /* Adjust top position to be below the first */
+    }
+}
