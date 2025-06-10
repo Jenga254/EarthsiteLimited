@@ -64,18 +64,17 @@ h5 {
   font-variation-settings: "wdth" 100;
 }
 
-/* .carousel-item {
-  height: 1600px;
-  width: 1204px;
-} */
-
-body {
-  padding-top: 130px;
+.carousel-item {
+  transition: transform 0s;
 }
+
+/* body {
+  padding-top: 130px;
+} */
 
 .navbar .nav-link {
   color: black !important;
-  font-family: "Alfa Slab One", serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -147,7 +146,7 @@ h4 {
   justify-content: center;
   font-size: 18px;
 }
-.image-button i {
+/* .image-button i {
   transition: transform 0.3s ease;
 }
 
@@ -157,7 +156,7 @@ h4 {
 
 .image-button2 i {
   transition: transform 0.3s ease;
-}
+} */
 
 .image-button2:hover i {
   transform: translateX(3px);
@@ -214,10 +213,10 @@ h4 {
   text-align: center;
   white-space: normal; /* allow text to wrap if needed */
 }
-
+/* 
 .img-grid {
   transition: transform 0.3s ease;
-}
+} */
 
 .img-grid:hover {
   transform: scale(1.1);
@@ -248,3 +247,12 @@ nav.navbar {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+
+.otherWorks {
+  padding-top: 50px;
+}
+
+/* .carousel-item {
+  transition: none !important;
+  -webkit-transition: none !important;
+} */
