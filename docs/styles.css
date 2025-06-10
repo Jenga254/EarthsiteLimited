@@ -5,6 +5,15 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+              url('images/nguy-n-hi-p-mvYyxn02rjk-unsplash.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
 #navbar .navbar {
   padding-top: 0 !important;
 }
@@ -35,7 +44,8 @@ img, div, section {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 60px;
+  color: floralwhite;
 }
 header {
   padding-top: 70px; /* adjust to navbar height */
@@ -49,20 +59,46 @@ header {
   text-align: center;
 }
 
-h2 {
-  font-family: "Rubik 80s Fade", system-ui;
-  font-weight: 400;
+.h2Carousel {
+  font-family: 'Manrope', sans-serif;
+font-weight: 700;
   font-style: normal;
+  color: #e78433;
+}
+.h2Main {
+  font-family: 'Manrope', sans-serif;
+font-weight: 700;
+  font-style: normal;
+  color: darkslategrey;
 }
 
-p,
-h5 {
+.subheading {
+  font-family: 'Inter', sans-serif;
+font-weight: 700;
+  font-style: normal;
+  color: chocolate;
+}
+
+/* .blurb {
+  font-family: 'Manrope', sans-serif;
+font-weight: 700;
+  font-style: normal;
+  color: wheat;
+} */
+
+
+p{
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  color: black
 }
+/* h5 {
+  color: white
+  ;
+} */
 
 .carousel-item {
   transition: transform 0s;
@@ -74,7 +110,6 @@ h5 {
 
 .navbar .nav-link {
   color: black !important;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
