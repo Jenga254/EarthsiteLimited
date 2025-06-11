@@ -109,9 +109,15 @@ p{
 } */
 
 .navbar .nav-link {
-  color: black !important;
+  /* color: black !important; */
+  /* font-weight: 400;
+  font-style: normal; */
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 40px;
+  color: chocolate;
 }
 
 .navbar .navbar-brand {
@@ -392,3 +398,11 @@ nav.navbar {
     top: 80%; /* Adjust top position to be below the first */
     }
 }
+
+.contactH2 {
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: chocolate;}
